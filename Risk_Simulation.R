@@ -39,7 +39,7 @@ for (win_rate in win_rates) {
 combined_results_df <- do.call(rbind, results_list)
 
 # Write the combined results to a CSV file
-write.csv(combined_results_df, file = "trading_simulation_results_by_win_rate.csv", row.names = FALSE)
+write.csv(combined_results_df, file = "Risk_Simulation.csv", row.names = FALSE)
 
 # Print a message indicating completion
-print("Simulation complete. Results saved to trading_simulation_results_by_win_rate.csv")
+print("Simulation complete. Results saved to Risk_Simulation.csv")

@@ -55,7 +55,7 @@ stopCluster(cl)
 combined_results_df <- do.call(rbind, results_list)
 
 # Write the combined results to a CSV file
-write.csv(combined_results_df, file = "trading_simulation_results.csv", row.names = FALSE)
+write.csv(combined_results_df, file = "Risk_Reward_Ratio.csv", row.names = FALSE)
 
 # Print a message indicating completion
-print("Simulation complete. Results saved to risk_reward_simulation.csv")
+print("Simulation complete. Results saved to Risk_Reward_Ratio.csv")
