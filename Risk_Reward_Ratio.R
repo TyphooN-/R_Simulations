@@ -18,7 +18,7 @@ simulate_trades <- function(starting_balance, risk_percent, num_trades, win_rate
 
 # Parameters
 starting_balance <- 100000
-num_trades <- 10000
+num_trades <- 1000
 risk_percentages <- seq(0.001, 1, by = 0.001)
 win_rates <- seq(0.01, 1, by = 0.01)
 reward_risk_ratios <- 2:10
